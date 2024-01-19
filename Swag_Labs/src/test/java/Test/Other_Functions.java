@@ -19,12 +19,7 @@ public class Other_Functions {
 		Select s=new Select(driver.findElement(By.xpath("//select[@class='product_sort_container']")));
 		s.selectByValue("hilo");
 		System.out.println("Filter Applied: High to Low");
-		s.selectByValue("lohi");
-		System.out.println("Filter Applied: Low to High");
-		s.selectByValue("za");
-		System.out.println("Filter Applied: Name(Z to A)");
-		s.selectByValue("az");
-		System.out.println("Filter Applied: Name(A to Z)");
+		
 		
 		
 	}
